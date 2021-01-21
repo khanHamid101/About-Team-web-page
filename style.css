@@ -1,0 +1,87 @@
+section{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+    /* margin: 0 auto; */
+margin-top: -80px;
+/* margin-left: 130px; */
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.underline{
+    height: 0.25rem;
+    width: 10rem;
+    background-color: aqua;
+    /* margin-bottom: 25px; */
+    margin-top: -170px;
+}
+
+.content{
+    background-color: cornsilk;
+    width: 500px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -120px;
+}
+
+img{
+    box-shadow: 40px 14px 17px rgba(76, 76, 228, 0.87);
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    /* border: rgba(35, 15, 212, 0.521) solid 5px; */
+    border-radius: 100px;
+    margin-left: 145px;
+}
+
+.name{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.job{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.text{
+    text-align: center;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    /* margin-left: 10px; */
+}
+.btn{
+    margin-left: 200px;
+}
+
+button span{
+/* padding: 5px; */
+/* margin-left: 5px; */
+display: flex;
+cursor: pointer;
+}
+
+.random-btn{
+text-align: center;
+font-size: 20px;
+background-color: white;
+border: rgba(0, 0, 255, 0.432) solid 5px;
+border-radius: 9px;
+cursor: pointer;
+margin-left: 5px;
+}
+
+span:hover,.random-btn:hover{
+    color: blue;
+}
